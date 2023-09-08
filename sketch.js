@@ -4,22 +4,22 @@
 
 function setup() {
   createCanvas(400, 400);
-  console.log(Math.floor(random(50)));
 }
 
 //a function that will generate a point within a 25x25 pixel boundary.
-//create a 
 function randomPoint(x, y) {
 
-    strokeWeight(5);
-    square(x, y, 25);
     stroke('green');
+    strokeWeight(3);
     let pointX = x + Math.floor(random(25));
     let pointY = y + Math.floor(random(25));
-    point(pointX, pointY)
-
+    point(pointX, pointY);
+    return(`${pointX}, ${pointY}`);
 }
 
+function randomX(x) {
+  return x + Math.floor(random(25));
+}
 
 
 
@@ -29,8 +29,19 @@ function draw() {
 
   strokeWeight(1);
   stroke('black')
-  square(100, 100, 25);
 
-  randomPoint(200, 200);
+  let coordinate = '200, 200';
+  
+
+  let x1 = randomX(25);
+  let y1 = randomX(25);
+  let x2 = randomX(100);
+  let y2 = randomX(25);
+  let x3 = randomX(100);
+  let y3 = randomX(50);
+
+  line(x1, y1, x3, y3);
+  line(x1, y1, x2, y2);
+  line(x2, y2, x3, y3);
 
 }
