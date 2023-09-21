@@ -30,16 +30,16 @@ function draw() {
   let coordinate = '200, 200';
   
 
-  let x1 = randomX(200);
-  let y1 = randomX(25);
+  let x1 = randomX(175);
+  let y1 = randomX(15);
 
-  let x2 = randomX(225);
-  let y2 = randomX(150);
+  let x2 = randomX(200);
+  let y2 = randomX(145);
 
   let x3 = randomX(325);
-  let y3 = randomX(150);
+  let y3 = randomX(135);
 
-  let x4 = randomX(275);
+  let x4 = randomX(250);
   let y4 = randomX(225);
 
   let x5 = randomX(300);
@@ -48,7 +48,7 @@ function draw() {
   let x6 = randomX(200);
   let y6 = randomX(275);
 
-  let x7 = randomX(100);
+  let x7 = randomX(75);
   let y7 = randomX(350);
 
   let x8 = randomX(150);
@@ -57,8 +57,8 @@ function draw() {
   let x9 = randomX(50);
   let y9 = randomX(150);
 
-  let x10 = randomX(175);
-  let y10 = randomX(150);
+  let x10 = randomX(150);
+  let y10 = randomX(135);
 
 
 
