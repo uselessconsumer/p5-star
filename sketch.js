@@ -29,36 +29,49 @@ function draw() {
 
   let coordinate = '200, 200';
   
+  noFill();
+  beginShape();
+  vertex(randomX(175), randomX(15));
+  vertex(randomX(215), randomX(145));
+  vertex(randomX(325), randomX(150));
+  vertex(randomX(250), randomX(225));
+  vertex(randomX(300), randomX(350));
+  vertex(randomX(200), randomX(275));
+  vertex(randomX(75), randomX(350));
+  vertex(randomX(135), randomX(225));
+  vertex(randomX(50), randomX(150));
+  vertex(randomX(150), randomX(135));
+  endShape(CLOSE);
 
-  let x1 = randomX(175);
-  let y1 = randomX(15);
+  // let x1 = randomX(175);
+  // let y1 = randomX(15);
 
-  let x2 = randomX(200);
-  let y2 = randomX(145);
+  // let x2 = randomX(215);
+  // let y2 = randomX(145);
 
-  let x3 = randomX(325);
-  let y3 = randomX(135);
+  // let x3 = randomX(325);
+  // let y3 = randomX(150);
 
-  let x4 = randomX(250);
-  let y4 = randomX(225);
+  // let x4 = randomX(250);
+  // let y4 = randomX(225);
 
-  let x5 = randomX(300);
-  let y5 = randomX(350);
+  // let x5 = randomX(300);
+  // let y5 = randomX(350);
 
-  let x6 = randomX(200);
-  let y6 = randomX(275);
+  // let x6 = randomX(200);
+  // let y6 = randomX(275);
 
-  let x7 = randomX(75);
-  let y7 = randomX(350);
+  // let x7 = randomX(75);
+  // let y7 = randomX(350);
 
-  let x8 = randomX(150);
-  let y8 = randomX(225);
+  // let x8 = randomX(135);
+  // let y8 = randomX(225);
 
-  let x9 = randomX(50);
-  let y9 = randomX(150);
+  // let x9 = randomX(50);
+  // let y9 = randomX(150);
 
-  let x10 = randomX(150);
-  let y10 = randomX(135);
+  // let x10 = randomX(150);
+  // let y10 = randomX(135);
 
 
 
